@@ -1,3 +1,5 @@
 public class Conta {
-  public void deposita(){} 
+  public void deposita() throws MyException{
+    throw new MyException("Exception");
+  } 
 }
